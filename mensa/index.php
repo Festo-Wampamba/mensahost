@@ -4,7 +4,7 @@ $subdomain = explode('.', $host)[0];
 $memberMap = ['festo'=>'wampamba','edrine'=>'kawere','grace'=>'kyarikunda','hellena'=>'kamariza','daniella'=>'talemwa','betsy'=>'awori','elvin'=>'tumusiime','maxwell'=>'mungujakisa','esther'=>'kirabo'];
 if (isset($memberMap[$subdomain])) { $f = __DIR__.'/members/'.$memberMap[$subdomain].'/index.php'; if (file_exists($f)) { require $f; exit; } }
 // 1. Include db.php — establishes $pdo (PDO instance) connected to mensa_db
-require_once 'db.php';
+require_once __DIR__ . '/db.php';
 
 // 2. Query all members from the database
 $members   = [];
