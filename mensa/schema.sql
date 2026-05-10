@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS mensa_db;
-CREATE USER IF NOT EXISTS 'mensa_user'@'localhost' IDENTIFIED BY 'your_password';
+CREATE USER IF NOT EXISTS 'mensa_user'@'localhost' IDENTIFIED BY 'Pass2026!';
 GRANT ALL PRIVILEGES ON mensa_db.* TO 'mensa_user'@'localhost';
 FLUSH PRIVILEGES;
 
