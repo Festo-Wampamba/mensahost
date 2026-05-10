@@ -1,0 +1,11 @@
+# DB credentials — copy db.php.example and fill in your values
+mensa/db.php
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# PHP cache
+/vendor/

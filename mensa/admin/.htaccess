@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "MensaHost Admin"
+AuthUserFile /home/festo/.mensahost_admin_htpasswd
+Require valid-user
